@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>A Small Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Assignment1ServletName</servlet-name>
+    <servlet-class>com.w3epic.wiprotraining.assignment1.Assignment1Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Assignment1ServletName</servlet-name>
+    <url-pattern>/primes.arp</url-pattern>
+  </servlet-mapping>
+
+</web-app>
